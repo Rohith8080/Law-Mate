@@ -142,7 +142,7 @@ def get_response_online(prompt, context):
     return response
 
 def get_response_offline(prompt, context):
-    llm = ChatOllama(model="phi3")
+    llm = ChatOllama(model="mistral")
     # Implement offline response generation here
     # This is a placeholder and needs to be implemented based on your offline requirements
     return "Offline mode is not fully implemented yet."
