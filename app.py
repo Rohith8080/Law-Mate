@@ -123,7 +123,7 @@ vector_store = get_vector_store(text_chunks)
 db_retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 def get_response_online(prompt, context):
-    full_prompt = f"""
+    full_prompt = f""" 
     As a legal chatbot specializing in the Indian Penal Code and Department of Justice services, you are tasked with providing highly accurate and contextually appropriate responses. Ensure your answers meet these criteria:
     - Respond in a bullet-point format to clearly delineate distinct aspects of the legal query or service information.
     - Each point should accurately reflect the breadth of the legal provision or service in question, avoiding over-specificity unless directly relevant to the user's query.
