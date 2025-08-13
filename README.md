@@ -8,7 +8,7 @@ LAW MATE is an AI-driven RAG-based multi-modal chatbot designed to enhance user 
 
 ## Problem Statement
 
-Developing an AI-based interactive Chatbot or virtual assistant for the Department of Justice's Website(SIH-2024).
+Developing an AI-based interactive Chatbot or virtual assistant for the Department of Justice's Website(SIH-2024). 
 
 ## Features
 
